@@ -1,3 +1,9 @@
+import base64
+import datetime
+import logging
+
+_LOGGER = logging.getLogger(__name__)
+
 
 def decode_kaifa(buf, log=False):
     """Decode kaifa."""
